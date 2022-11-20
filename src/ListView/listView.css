@@ -1,0 +1,44 @@
+.ListView {
+  border-right: 1px solid #ededed;
+  background: #36c;
+  flex: 1 0 10%;
+  padding: 1rem;
+}
+
+/* Button Menu */
+.list-btn-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+/* Tree View */
+.tree-view {
+}
+
+/* Parent Item */
+.parent-list-item {
+}
+.parent-item-selectable {
+  cursor: pointer;
+  padding: 5px 0 6px 10px;
+}
+.parent-item-selectable:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+/* List Item */
+.list-item-group {
+  display: none;
+}
+.list-item-group.selected {
+  display: block;
+}
+.list-item {
+  margin: 10px 0 10px 20px;
+}
+.list-item:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
